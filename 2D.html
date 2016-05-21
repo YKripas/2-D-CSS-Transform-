@@ -9,21 +9,35 @@
         .box {
             width: 200px;
             height: 200px;
-            background: #575;
-            /*STARTING TRANSFORMS*/
+            /*background: #575;
+            STARTING TRANSFORMS
             -webkit-transform: rotate(45deg);
             -ms-transform: rotate(45deg);
             transform: rotate(25deg);
-            /*STARTING TRANSFORM-ORIGIN*/
+            STARTING TRANSFORM-ORIGIN
             -webkit-transform-origin: 0 0 ;
             -ms-transform-origin: 0 0 ;
             transform-origin: 0 0 ;
             
-            /*border-radius: 50%;*/
+            border-radius: 50%;
             outline: 1px solid blue;
             padding: 30px;
             background-clip:content-box;
+            */
         }
+        .one {
+            background: #575;
+            -webkit-transform:rotate(45deg);
+            -ms-transform:rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .two {
+            background: #755;
+             -webkit-transform:rotate(45deg);
+            -ms-transform:rotate(45deg);
+            transform: rotate(45deg);
+        }
+        
         .container {
             width: 200px;
             height: 200px;
@@ -34,7 +48,8 @@
     
     <body>
         <div class="container">
-            <div class="box"></div>
+            <div class="box one"></div>
+            <div class="box two"></div>
         </div>
     </body>
 </html>
